@@ -1,0 +1,11 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "strictNullChecks": true, 
+        "noEmitOnError": true,
+        "sourceMap": false,
+        "noImplicitAny": true,
+        "noUnusedParameters": true
+    },
+    "exclude": ["node_modules"]
+}
