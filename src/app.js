@@ -39,3 +39,14 @@ function neverReturnAnything() {
 }
 var a = 1099;
 console.log(a);
+console.log("Arrow functions");
+var multiplyNumbers = function (n1, n2) { return n1 * n2; };
+console.log(multiplyNumbers(2, 3));
+console.log("END of Arrow functions");
+console.log("DESTRUCTURING");
+var myUser = {
+    someName: "Max",
+    age: 21
+};
+var someName = myUser.someName, age = myUser.age;
+console.log(someName, age);

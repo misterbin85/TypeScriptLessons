@@ -56,3 +56,24 @@ function neverReturnAnything(): never {
 
 let a = 1099;
 console.log(a);
+
+console.log("Arrow functions");
+
+let multiplyNumbers = (n1: number, n2: number) => n1 * n2;
+
+console.log(multiplyNumbers(2, 3));
+
+console.log("END of Arrow functions");
+
+console.log("DESTRUCTURING");
+
+type userType = {someName: string, age: number};
+
+let myUser: userType = {
+    someName: "Max",
+    age: 21
+};
+
+const {someName, age} = myUser;
+
+console.log(someName, age);
