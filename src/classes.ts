@@ -1,3 +1,7 @@
+/// <reference path="app.ts" />
+
+console.log(`HELLO: ${TryNamespace.multiply(2, 3)}`);
+
 class Person {
     name: string;
     private word: string;
@@ -32,4 +36,5 @@ class ExactPerson extends Person {
 }
 
 let p = new ExactPerson("bla", "bla-bla", 30);
+console.log(`Class name is : ${typeof(p)}`)
 p.printAge();

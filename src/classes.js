@@ -1,3 +1,4 @@
+/// <reference path="app.ts" />
 var __extends = (this && this.__extends) || (function () {
     var extendStatics = function (d, b) {
         extendStatics = Object.setPrototypeOf ||
@@ -11,6 +12,7 @@ var __extends = (this && this.__extends) || (function () {
         d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
     };
 })();
+console.log("HELLO: " + TryNamespace.multiply(2, 3));
 var Person = /** @class */ (function () {
     function Person(name, userName) {
         this.userName = userName;
@@ -41,4 +43,5 @@ var ExactPerson = /** @class */ (function (_super) {
     return ExactPerson;
 }(Person));
 var p = new ExactPerson("bla", "bla-bla", 30);
+console.log("Class name is : " + typeof (p));
 p.printAge();

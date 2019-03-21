@@ -1,6 +1,8 @@
+namespace TryNamespace{    
+
 console.log('Hello Oleh');
 
-function multiply(one: number, two : number): number {
+export function multiply(one: number, two : number): number {
     return one * two;
 }
 
@@ -77,3 +79,5 @@ let myUser: userType = {
 const {someName, age} = myUser;
 
 console.log(someName, age);
+
+}
