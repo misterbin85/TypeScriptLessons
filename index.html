@@ -3,12 +3,17 @@
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="utf-8" />
-    <title></title>
+    <title>Learning TypeScript</title>
+    <script src="/node_modules/systemjs/dist/system.js"></script>    
 </head>
 <body>
 <h1 style="display: inline;">Hello TypeScript</h1>
+<script>
+    System.import("/src/app.js");
+    System.import("/src/bankAcc.ts");
+</script>
 </body>
-<script src="/src/app.js"></script>
-<script src="/src/bankAcc.js"></script>
-<script src="/src/classes.js"></script>
+<script>
+    
+</script>
 </html>
