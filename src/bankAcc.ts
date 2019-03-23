@@ -1,6 +1,6 @@
-import {PI} from "./modules_my/const"
+//import {PI} from "./modules_my/const"
 
-console.log(`From imported module PI equals: ${PI}`);
+//console.log(`From imported module PI equals: ${PI}`);
 
 type bankAcc = { money: number, deposit: (value: number) => void };
 type user = { name: string, bankAccount: bankAcc, hobbies: string[] };

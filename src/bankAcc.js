@@ -1,7 +1,4 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-var const_1 = require("./modules_my/const");
-console.log("From imported module PI equals: " + const_1.PI);
+//import {PI} from "./modules_my/const"
 var myAcct = {
     money: 3200,
     deposit: function d(v) {
