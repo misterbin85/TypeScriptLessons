@@ -37,4 +37,17 @@ const mathClass = new SimpleMAth();
 mathClass.FirstValue = "10";
 mathClass.SecondValue = 20;
 
-console.log(mathClass.calculate());
+console.log(mathClass.calculate()); 
+
+class SimpleMath<T extends number | string, U extends number> {
+    FirstValue: T;
+    SecondValue: U;
+    calculate() {
+        return +this.FirstValue * +this.SecondValue;
+    }    
+}
+const mathClass2 = new SimpleMath<string, number>();
+mathClass2.FirstValue = "100";
+mathClass2.SecondValue = 3;
+
+console.log(`Second class with two Generic types: ${mathClass2.calculate()}`); 
