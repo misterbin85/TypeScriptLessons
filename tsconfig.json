@@ -1,11 +1,12 @@
 {
     "compilerOptions": {
         "target": "es5",
-        "strictNullChecks": true, 
+        "strictNullChecks": false, 
         "noEmitOnError": true,
         "sourceMap": false,
         "noImplicitAny": true,
-        "noUnusedParameters": true
+        "noUnusedParameters": true,
+        "experimentalDecorators": true
     },
     "exclude": ["node_modules"]
 }

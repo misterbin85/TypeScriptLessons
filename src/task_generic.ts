@@ -17,7 +17,7 @@ class MyMap<T> {
 
     printMap() {
         for (let key in this.map) {
-            console.log("My Map: ", key, this.map[key]);
+            console.log("My Map: ", key, this.map[key]); 
         }
     }
 
