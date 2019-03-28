@@ -5,7 +5,7 @@
         "noEmitOnError": true,
         "sourceMap": false,
         "noImplicitAny": true,
-        "noUnusedParameters": true,
+        "noUnusedParameters": false,
         "experimentalDecorators": true
     },
     "exclude": ["node_modules"]
