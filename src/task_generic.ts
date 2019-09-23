@@ -20,7 +20,6 @@ class MyMap<T> {
             console.log("My Map: ", key, this.map[key]); 
         }
     }
-
 }
 
 const numberMap = new MyMap<number>();
